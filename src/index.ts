@@ -2,7 +2,7 @@ import { default as uuidv4 } from 'uuid/v4';
 
 export const Uuid = {
   generate: uuidv4,
-  
+
   stringToBinary(uuidString: string): Buffer {
     const hex = uuidString.replace(/-/g, '');
     const buffer = Buffer.from(hex, 'hex');

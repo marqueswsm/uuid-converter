@@ -13,6 +13,24 @@
       }
     ]
   },
+  "rules": {
+    "align": [
+      true,
+      "elements",
+      "members",
+      "parameters",
+      "statements"
+    ],
+    "variable-name": false,
+    "ordered-imports": false,
+    "no-var-requires": false,
+    "no-empty-interface": false,
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "member-ordering": false,
+    "interface-over-type-literal": false,
+    "array-type": false
+  },
   "include": [
     "./src/**/*",
     "./src/types/*"

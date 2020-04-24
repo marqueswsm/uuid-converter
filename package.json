@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/marqueswsm/uuid-converter#readme",
   "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "tslint": "^6.1.1",
+    "tslint-config-airbnb": "^5.11.2",
     "typescript": "^3.8.3"
   },
   "dependencies": {
