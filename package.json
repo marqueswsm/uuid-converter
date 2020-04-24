@@ -4,7 +4,8 @@
   "description": "It is npm package developed in order to allow you to convert Uuid strings to binary",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,19 @@
   },
   "homepage": "https://github.com/marqueswsm/uuid-converter#readme",
   "devDependencies": {
+    "@hapi/joi": "^17.1.1",
     "@types/jest": "^25.2.1",
+    "jest": "^25.4.0",
     "nodemon": "^2.0.3",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.1",
+    "tslint-config-airbnb": "^5.11.2",
     "typescript": "^3.8.3"
   },
   "dependencies": {
     "@types/node": "^13.13.2",
     "@types/uuid": "^7.0.3",
+    "ts-node": "^8.9.0",
     "uuid": "^7.0.3"
   }
 }
