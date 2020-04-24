@@ -21,4 +21,4 @@ export const Uuid = {
       hex.slice(20, 32),
     ].join('-');
   },
-}
+};
