@@ -1,0 +1,28 @@
+{
+  "name": "uuid-converter",
+  "version": "1.0.0",
+  "description": "It is npm package developed in order to allow you to convert Uuid strings to binary",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marqueswsm/uuid-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marqueswsm/uuid-converter/issues"
+  },
+  "homepage": "https://github.com/marqueswsm/uuid-converter#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^13.13.2",
+    "@types/uuid": "^7.0.3",
+    "uuid": "^7.0.3"
+  }
+}
