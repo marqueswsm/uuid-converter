@@ -4,7 +4,6 @@
   "description": "It is npm package developed in order to allow you to convert Uuid strings to binary",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/index.ts"
   },
   "repository": {
