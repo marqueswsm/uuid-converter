@@ -1,6 +1,6 @@
 {
   "name": "uuid-converter",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "It is an npm package developed in order to allow you to convert Uuid strings to binary",
   "scripts": {
     "dev": "nodemon --watch './src/**/*.ts' --exec 'ts-node' ./src/index.ts",
