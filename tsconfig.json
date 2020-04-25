@@ -2,12 +2,15 @@
   "compilerOptions": {
     "declaration": true,
     "noUnusedLocals": true,
-    "outDir": "dist",
+    "outDir": "./lib",
     "strict": true,
     "target": "ES5",
     "module": "commonjs",
   },
   "include": [
     "src/**/*"
+  ],
+  "exclude": [
+    "node_modules", "**/__tests__/**"
   ]
 }
