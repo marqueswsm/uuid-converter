@@ -1,6 +1,6 @@
 {
   "name": "uuid-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is npm package developed in order to allow you to convert Uuid strings to binary",
   "main": "src/index.js",
   "scripts": {
