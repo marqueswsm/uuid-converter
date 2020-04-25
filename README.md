@@ -1,5 +1,5 @@
 # uuid-converter
-It is a npm package developed in order to allow you to convert Uuid strings to binary. If you want to learn more about Uuid you can take a loot at [RFC 4122](https://tools.ietf.org/html/rfc4122). Uuid is a good approach to be used as primary key in the database since it does not expose any information about the data and can be generated anywhere in the application. However, an Uuid is 128 bits long and may cause performance issues due to their size. In this context, this package provide an easy way to convert Uuid to binary before send it to the database.
+It is a npm package developed in order to allow you to convert Uuid strings to binary. If you want to learn more about Uuid you can take a look at [RFC 4122](https://tools.ietf.org/html/rfc4122). Uuid is a good approach to be used as primary key in the database since it does not expose any information about the data and can be generated anywhere in the application. However, an Uuid is 128 bits long and may cause performance issues due to their size. In this context, this package provide an easy way to convert Uuid to binary before send it to the database.
 
 ## How to install
 It is provided as a npm package:
