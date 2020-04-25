@@ -26,7 +26,7 @@ const uuid = Uuid.generate();
 ```
 > 798895c3-cc7c-4b59-9d85-68798dd36761
 
-Than, convert it to a binary:
+Then, convert it to a binary:
 ```js
 const binary = Uuid.stringToBinary(uuid);
 ```
