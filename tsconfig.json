@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    "strict": true,
+    "target": "ES6",
+    "module": "CommonJS",
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
