@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import { Uuid } from '../index';
+import * as Uuid from '../index';
 
 describe('Index unit tests', () => {
   describe('#generate', () => {
