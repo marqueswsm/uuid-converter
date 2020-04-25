@@ -7,12 +7,18 @@ export function generate(): string {
 export function stringToBinary(uuidString: string): Buffer {
   const hex = uuidString.replace(/-/g, '');
   const buffer = Buffer.from(hex, 'hex');
-  if (buffer.length !== 16) throw new Error('Invalid UUID');
+  if (buffer.length !== 16) {
+    throw new Error('Invalid UUID');
+  }
+
   return buffer;
 }
 
 export function binaryToString(uuidBuffer: Buffer): string {
-  if (uuidBuffer.length !== 16) throw new Error('Invalid UUID');
+  if (uuidBuffer.length !== 16) {
+    throw new Error('Invalid UUID');
+  }
+
   const hex = uuidBuffer.toString('hex');
   return [
     hex.slice(0, 8),
